@@ -1,0 +1,12 @@
+Firmware built into the kernel image via CONFIG_EXTRA_FIRMWARE
+(CONFIG_EXTRA_FIRMWARE_DIR="firmware", relative to the kernel source tree).
+
+From dvab-sarma/proprietary_vendor_opi (opi3b/proprietary/vendor/firmware):
+  regulatory.db, regulatory.db.p7s, brcm/*, arm/mali/arch10.8/mali_csffw.bin
+
+From linux-firmware (https://gitlab.com/kernel-firmware/linux-firmware):
+  rtw89/rtw8852b_fw-1.bin   - RTL8852BE Wi-Fi (Radxa Wireless Module A8)
+  rtl_bt/rtl8852bu_fw.bin   - RTL8852BU Bluetooth (Radxa Wireless Module A8)
+
+Licences: LICENCE.rtlwifi_firmware.txt, LICENCE.broadcom_bcm43xx,
+LICENCE.mali_csffw (copied from linux-firmware).
